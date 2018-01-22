@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Sound Board</string>
+
+    <string name="title">Shout Out!</string>
+
+    <string name="hello">Hello</string>
+    <string name="bye">Good bye</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="overwatch">Overwatch</string>
+
+    <string-array name="OW">
+        <item>Boop</item>
+        <item>I Need Healing</item>
+        <item>Curious</item>
+        <item>Hi There</item>
+        <item>Peanut Butter</item>
+    </string-array>
+
+    <string name="jontron">Jon Tron</string>
+
+    <string-array name="JT">
+        <item>My Favorite</item>
+        <item>Things that Aren\'t Free</item>
+        <item>I Get It</item>
+        <item>Scary</item>
+        <item>Ten</item>
+    </string-array>
+
+    <string name="memes">Memes</string>
+
+    <string-array name="M">
+        <item>Missed</item>
+        <item>Nani</item>
+        <item>Oh No</item>
+        <item>Ora Ora</item>
+        <item>Pregante</item>
+    </string-array>
+
+    <string name="toSpeech">Txt To Speech</string>
+    <string name="iFunny">IFunny</string>
+    <string name="reddit">Reddit</string>
+    <string name="youtube">YouTube</string>
+
+    <string name="speak">Speak It</string>
+    <string name="speakDefault">\\/ Speech Examples \\/</string>
+    <string name="here">Your Text Here</string>
+</resources>

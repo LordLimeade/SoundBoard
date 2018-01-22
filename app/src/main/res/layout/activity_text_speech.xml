@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ryanblakley.makeownapp.TextSpeechActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <EditText
+            android:id="@+id/speak"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/talk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/speak"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded"
+            android:text="@string/speak" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/speakDefault"
+            android:layout_below="@+id/talk"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textColor="#000"/>
+
+        <LinearLayout
+            android:weightSum="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/defaultOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/hello"
+                    android:background="@drawable/rounded"
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/defaultThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/yes"
+                    android:background="@drawable/rounded"
+                    android:layout_below="@+id/defaultOne"
+                    android:layout_marginTop="20dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/defaultTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/bye"
+                    android:background="@drawable/rounded"
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/defaultFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/no"
+                    android:background="@drawable/rounded"
+                    android:layout_below="@+id/defaultTwo"
+                    android:layout_marginTop="20dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
